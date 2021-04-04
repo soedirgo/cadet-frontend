@@ -47,3 +47,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           force_orphan: true
+          allow_empty_commit: true
+          cname: source-academy.soedirgo.dev
